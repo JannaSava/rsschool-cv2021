@@ -16,11 +16,14 @@ I have good communication skills with people,  and I have experience working wit
 * Git
 
 ### Education
-* **University:** Belarusian National University of Physical Education
-* **Courses:** 
- 1. HTML https://ru.code-basics.com/
- 2. CSS https://ru.code-basics.com/
+* **University:** Belarusian National University of Physical Education (Manager of the sport)
 
+### Courses:
+ * **HTML** https://ru.code-basics.com/
+ * **CSS** https://ru.code-basics.com/
+ 
+### English
+**A2** (B1 in progress.)
 
 
 
