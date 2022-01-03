@@ -16,11 +16,12 @@
 
   <body>
     <div class="content">
+      <div class="strip"></div>
       <header class="header">
         <img src="./avatar.jpg" alt="avatar" class="avatar" />
         <div class="header-text-block">
           <h1 class="name">Janna Savostyanova</h1>
-          <h2 class="position">Front-end Develope</h2>
+          <h2 class="position">Front-end Developer</h2>
           <nav class="contacts-block">
             <h2 class="head-block">Contacts</h2>
             <ul class="contacts">
@@ -28,7 +29,13 @@
               <li class="contact">Phone: +375 29 316 81 79</li>
               <li class="contact">Email: zhannasavastsyanava@gmail.com</li>
               <li class="contact">GitHub: @JannaSava</li>
-              <li class="contact"><a href="https://www.linkedin.com/in/zhanna-savastsyanava-0a1200141/">LinkedIn</a></li>
+              <li class="contact">
+                <a
+                  href="https://www.linkedin.com/in/zhanna-savastsyanava-0a1200141/"
+                  class="link"
+                  >LinkedIn</a
+                >
+              </li>
             </ul>
           </nav>
         </div>
@@ -81,23 +88,28 @@
 
         <h2 class="head-block">Projects:</h2>
         <p class="project">
-          My CV: <a href="https://jannasava.github.io/rsschool-cv/" class="project-link"
-            > https://jannasava.github.io/rsschool-cv/</a
+          <b>My CV:</b>
+          <a
+            href="https://jannasava.github.io/rsschool-cv/"
+            class="project-link"
+          >
+            https://jannasava.github.io/rsschool-cv/</a
           >
         </p>
 
-        <h2 class="code">Sample code</h2>
-        <code class="code">
-            let sayHi = function() {<br>
-                alert( "Hello World" );<br>
-              };
-              
-        </code>
+        <h2 class="head-block">Sample code</h2>
+        <div class="code">
+          <code>
+            let sayHi = function() {<br />
+            alert( "Hello World" );<br />
+            };
+          </code>
+        </div>
       </main>
 
       <footer class="footer">
         <a href="https://github.com/JannaSava" class="github-link">GitHub</a>
-        <p class="year">2022</p>
+        <p class="year"><b>2022</b></p>
         <a href="https://rs.school/js/" class="course-link">
           <img src="./rs_school_js.svg" alt="logo-rss" />
         </a>
