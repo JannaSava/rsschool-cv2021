@@ -12,71 +12,14 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .content {
   width: 1400px;
   margin: 0 auto;
-  background-color: #dddddd4d;
+  background-color: yellow;
 }
 
-.header {
-  display: flex;
-  background-color: white;
-}
 
-.header-text-block {
-  margin-top: 30px;
-  margin-left: 50px;
-}
-
-.head-block {
-  color: var(--color-head);
-  margin-left: 20px;
-}
-
-.avatar-block {
-  width: 300px;
-  height: 400px;
-}
-
-.avatar {
-  width: 100%;
-}
-
-.contact {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.about-me-text,
-.education-text {
-  margin-left: 20px;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.skills-block,
-.footer {
-  background-color: var(--color-text);
-  padding: 20px 0;
-}
-
-.skiil {
-  color: var(--color-iconic);
-  font-weight: 700;
-}
-
-.footer {
-  text-align: center;
-}
-
-.github-link {
-  color: var(--color-iconic);
-  font-size: 20px;
-  font-weight: 800;
-}
-
-/* .contacts-head{
+.contacts-head{
     margin-left: 30px;
 }
 .position{
@@ -97,4 +40,4 @@ body {
 }
 .head-block{
     margin-left: 30px;
-} */
+}
