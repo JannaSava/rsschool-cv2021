@@ -1,7 +1,7 @@
 :root {
   --color-head: #4ac9dd;
   --color-text: #25241c;
-  --color-iconic: #ffeb3b;
+  --color-background: yellow;
 }
 
 html {
@@ -15,7 +15,7 @@ body {
 .content {
   width: 1400px;
   margin: 0 auto;
-  background-color: yellow;
+  background-color: var(--color-background);
 }
 
 .avatar-block {
@@ -42,7 +42,8 @@ body {
 .head-block {
   margin: 60px;
   margin-bottom: 0;
-  font-size: 26px;
+  font-size: 30px;
+  color: var(--color-head);
 }
 .name {
   color: var(--color-head);
@@ -55,7 +56,10 @@ body {
   font-size: 35px;
 }
 
-.about-me-text, .education-text{
+.about-me-text,
+.education-text,
+.cours,
+.level {
   margin-left: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -67,4 +71,39 @@ body {
 }
 .skills {
   font-size: 30px;
+}
+.link {
+  color: var(--color-head);
+  font-weight: 900px;
+}
+.github-link {
+  color: var(--color-head);
+  font-size: 30px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.course-link {
+  width: 100px;
+}
+.year {
+  font-size: 26px;
+}
+.project {
+  font-weight: 900;
+  margin-left: 15px;
+}
+.project-link {
+  color: var(--color-head);
+  font-weight: 600;
+}
+.code{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-size: 25px;
+  margin-left: 15px; 
 }
